@@ -7,8 +7,8 @@ import (
 	"net/http/httputil"
 	"net/url"
 
-	"github.com/micro/go-api"
-	"github.com/micro/go-api/handler"
+	"github.com/nhannv/go-api"
+	"github.com/nhannv/go-api/handler"
 	"github.com/micro/go-micro/selector"
 )
 

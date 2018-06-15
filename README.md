@@ -1,4 +1,4 @@
-# Go API [![License](https://img.shields.io/:license-apache-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![GoDoc](https://godoc.org/github.com/micro/go-api?status.svg)](https://godoc.org/github.com/micro/go-api) [![Travis CI](https://api.travis-ci.org/micro/go-api.svg?branch=master)](https://travis-ci.org/micro/go-api) [![Go Report Card](https://goreportcard.com/badge/micro/go-api)](https://goreportcard.com/report/github.com/micro/go-api)
+# Go API [![License](https://img.shields.io/:license-apache-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![GoDoc](https://godoc.org/github.com/nhannv/go-api?status.svg)](https://godoc.org/github.com/nhannv/go-api) [![Travis CI](https://api.travis-ci.org/nhannv/go-api.svg?branch=master)](https://travis-ci.org/nhannv/go-api) [![Go Report Card](https://goreportcard.com/badge/nhannv/go-api)](https://goreportcard.com/report/github.com/nhannv/go-api)
 
 Go API is a pluggable API framework
 
@@ -30,7 +30,7 @@ The API handler is the default handler. It serves any HTTP requests and forwards
 
 - Content-Type: Any
 - Body: Any
-- Forward Format: [api.Request](https://github.com/micro/go-api/blob/master/proto/api.proto#L11)/[api.Response](https://github.com/micro/go-api/blob/master/proto/api.proto#L21)
+- Forward Format: [api.Request](https://github.com/nhannv/go-api/blob/master/proto/api.proto#L11)/[api.Response](https://github.com/nhannv/go-api/blob/master/proto/api.proto#L21)
 - Path: `/[service]/[method]`
 - Resolver: Path is used to resolve service and method
 
@@ -40,7 +40,7 @@ The event handler serves HTTP and forwards the request as a message over a messa
 
 - Content-Type: Any
 - Body: Any
-- Forward Format: Request is formatted as [go-api/proto.Event](https://github.com/micro/go-api/blob/master/proto/api.proto#L28L39) 
+- Forward Format: Request is formatted as [go-api/proto.Event](https://github.com/nhannv/go-api/blob/master/proto/api.proto#L28L39) 
 - Path: `/[topic]/[event]`
 - Resolver: Path is used to resolve topic and event name
 

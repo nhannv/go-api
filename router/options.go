@@ -1,7 +1,7 @@
 package router
 
 import (
-	"github.com/micro/go-api"
+	"github.com/nhannv/go-api"
 	"github.com/micro/go-micro/cmd"
 	"github.com/micro/go-micro/registry"
 )
